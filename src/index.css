@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Fonts are loaded via AppShell <style> injection for Lovable compatibility.
+   In production, move these imports to index.html <head>. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #FAF7F3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbars globally — mobile-app feel */
+::-webkit-scrollbar {
+  display: none;
+}
+
+scrollbar-width: none;
